@@ -60,11 +60,6 @@ class App from dring
 	 eval(curlstr)
 	 if  isequal(aPagename,vt)	
 	 see "Content-type: text/html" +nl+nl
-	 	
-	 if not startwith(ccode,'website/')	
-	 
-	 else
-	 ok
 		 switch ctype
 			on :ringfunc
 				eval(ccode)

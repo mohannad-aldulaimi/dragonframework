@@ -3,5 +3,5 @@
 load "lib.ring"
 
 func main
-
-	? "Hello, World!"
+	chdir('dragon-ring')
+	system('ring manage.ring')
