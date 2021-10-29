@@ -63,7 +63,7 @@ aPackageInfo = [
 "dragon-ring/main/brand.png",
 "dragon-ring/main/db.ring",
 "dragon-ring/manage.ring",
-"dragon-ring/route.ring",
+"route.ring",
 "dragon-ring/website/templates/test.html",
 "dragon-ring/website/test.ring"
 	],
