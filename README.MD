@@ -2,8 +2,9 @@
 _It's very easy to create your own web-sites using [The Ring Programming Language](http://ring-lang.net)_
 
 ## Install:-
-	Use this command for installation 
-	ringpm install dragonframework from mohannad-aldulaimi
+	(1) Use this command for installation 
+	 ringpm install dragonframework from mohannad-aldulaimi
+	(2) load 'Dragon-Ring.ring'
 
 ## Run :-
 	To run just type this command:-

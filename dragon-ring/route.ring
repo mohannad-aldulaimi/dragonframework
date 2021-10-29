@@ -2,7 +2,6 @@
 load 'main/base.ring'
 import system.Web
 # http://localhost/index or http://localhost/
-app.route('index',:htmlstr,dragonindexpage)
 # http://localhost/index/hello
 app.route2('index/hello',:htmlstr,"<h1>..Hello..</h1>")
 
