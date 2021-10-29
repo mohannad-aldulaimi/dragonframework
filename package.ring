@@ -64,6 +64,7 @@ aPackageInfo = [
 "dragon-ring/main/db.ring",
 "dragon-ring/manage.ring",
 "route.ring",
+"dragon-ring/route.ring",
 "dragon-ring/website/templates/test.html",
 "dragon-ring/website/test.ring"
 	],
