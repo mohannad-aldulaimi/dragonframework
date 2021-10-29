@@ -15,12 +15,7 @@ aPackageInfo = [
 	],
 	:libs = 	[
 		[
-			:name = "stdlib.ring",
-			:version = "",
-			:providerusername = ""
-		],
-		[
-			:name = "internetlib.ring",
+			:name = "",
 			:version = "",
 			:providerusername = ""
 		]
