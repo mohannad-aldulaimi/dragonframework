@@ -1,21 +1,21 @@
 aPackageInfo = [
-	:name = "The dragonframework Package",
-	:description = "Our dragonframework package using the Ring programming language",
+	:name = "Dragon-Ring Web FrameWork",
+	:description = "a free web framework  using the Ring Programming Language",
 	:folder = "dragonframework",
-	:developer = "",
-	:email = "",
-	:license = "MIT License",
-	:version = "1.0.0",
-	:ringversion = "1.14",
+	:developer = "mohannad-aldulaimi",
+	:email = "dragon-ring@hi2.in",
+	:license = "",
+	:version = "1.0.2",
+	:ringversion = "1.12",
 	:versions = 	[
 		[
-			:version = "1.0.0",
+			:version = "1.0.2",
 			:branch = "master"
 		]
 	],
 	:libs = 	[
 		[
-			:name = "",
+			:name = "stdlib.ring",
 			:version = "",
 			:providerusername = ""
 		]
