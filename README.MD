@@ -6,7 +6,7 @@ _It's very easy to create your own web-sites using [The Ring Programming Languag
 	ringpm install dragonframework from mohannad-aldulaimi
 
 ## Run :-
-	To run just type this code:-
+	To run just type this command:-
 		ringpm run dragonframework
 ## What Is New:-
 	alpha Version 1.0.2
