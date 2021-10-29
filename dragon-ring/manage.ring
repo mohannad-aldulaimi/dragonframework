@@ -58,6 +58,10 @@ func gethelp()
 func startserver
 	if isWindows()
 		? 'The server will be running in a few seconds'
+		if getargv()[4] = 1
+system('ring '+substr(currentdir(),'/','\')+'\dragon-ring\batch\ring\server.ring')
+		ok
+		#system('ring batch\ring\server.ring')
 		system('ring batch\ring\server.ring')
 	else
 		? 'You are not windows user ...'
