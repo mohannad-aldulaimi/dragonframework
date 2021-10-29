@@ -3,7 +3,7 @@ _It's very easy to create your own web-sites using [The Ring Programming Languag
 
 ## Install:-
 	Use this command for installation 
-	ringpm install dragonframework from mohannadjosee
+	ringpm install dragonframework from mohannad-aldulaimi
 ## What Is New:-
 	alpha Version 1.0.2
 		1. Add manage.ring so that you can manage your project easily.
