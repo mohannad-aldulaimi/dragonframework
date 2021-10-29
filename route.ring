@@ -1,5 +1,6 @@
 #!ring  -cgi 
-load 'main/base.ring'
+load 'dragon-ring/main/base.ring'
+
 import system.Web
 # http://localhost/index or http://localhost/
 # http://localhost/index/hello
@@ -13,4 +14,11 @@ app.route2('test/hello',:ringfile,"test.ring")
 # Thank you for using our Framework
 # keep going ...
 # Mohannad Al-Dulaimi 
-/* contact me on E-mail :- dragon-ring@hi2.in */ 
+/* contact me on E-mail :- dragon-ring@hi2.in */
+
+func getstartedwithdragonring()
+	path = currentdir()
+	chdir(frmpath)
+		system('xcopy . '+path+' /E /H /C /I')
+
+	#/E /H /C /I
