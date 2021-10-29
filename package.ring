@@ -15,8 +15,8 @@ aPackageInfo = [
 	],
 	:libs = 	[
 		[
-			:name = "stdlib.ring",
-			:version = "1.0",
+			:name = "",
+			:version = "",
 			:providerusername = ""
 		]
 	],
@@ -100,7 +100,7 @@ aPackageInfo = [
 	:macosringfolderfiles = 	[
 
 	],
-	:run = "ring manage.ring",
+	:run = "ring dragon-ring\manage.ring run",
 	:windowsrun = "",
 	:linuxrun = "",
 	:macosrun = "",
