@@ -68,7 +68,7 @@ aPackageInfo = [
 "dragon-ring/website/test.ring"
 	],
 	:ringfolderfiles = 	[
-
+	
 	],
 	:windowsfiles = 	[
 
