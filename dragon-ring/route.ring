@@ -1,6 +1,5 @@
 #!ring  -cgi 
-load 'main/base.ring'
-
+load 'dragon-ring.ring'
 import system.Web
 # http://localhost/index or http://localhost/
 app.route('index',:htmlstr,dragonindexpage)
