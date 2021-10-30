@@ -4,6 +4,6 @@ mysql_connection = [
 	:port    = null   ,
 	:user 	  = "root" ,
 	:pass 	  = "" 	   ,
-	:db_name = "mohannad_website"
+	:db_name = ""
 ]
 	
