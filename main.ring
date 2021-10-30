@@ -11,4 +11,6 @@ func main
 		write('main/base.ring',basestr)
 	ok
 	chdir('dragon-ring')
-	system('ring manage.ring run')
+	? copy('*',73)
+	? 'The "Dragon-Ring" Framework Has Bn Installed successfully ...'
+	? copy('*',73)
