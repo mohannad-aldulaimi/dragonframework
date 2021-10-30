@@ -12,5 +12,5 @@ func main
 	ok
 	chdir('dragon-ring')
 	? copy('*',73)
-	? 'The "Dragon-Ring" Framework Has Bn Installed successfully ...'
+	? 'The "Dragon-Ring" Framework Has Been Installed successfully ...'
 	? copy('*',73)
