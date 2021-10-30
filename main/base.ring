@@ -13,11 +13,14 @@ func sendvars(catrri)
 	 addattribute(dring , catrri )
 	 addattribute( app  , catrri )
 
-class Dragon-Magangement
+
+class DragonMagangement
+	func init args
 	Linee()
 	? TAB + TAb +'Welcom To "Dragon-Ring" Web Framework Management'
 	Linee()
 	getinfos()
+	new Commands(args)
 func getinfos()
 		? 'Usage :- [ring manage.ring] <Command>'
 		? 'For more information use <help> '
