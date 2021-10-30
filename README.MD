@@ -15,7 +15,7 @@ _It's very easy to create your own web-sites using [The Ring Programming Languag
 	ring test.ring
 
 ## Run :-
-#### To run just use this command:-
+#### To run just use this command :-
 		ring manage.ring run
 ## What Is New:-
 ### alpha Version 1.0.2
