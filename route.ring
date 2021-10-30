@@ -4,12 +4,9 @@ import system.Web
 # http://localhost/index or http://localhost/
 
 # http://localhost/index/hello
-app.route2('index/hello',:htmlstr,"<h1>..Hello..</h1>")
-
 #app.route(['index','hello'],:htmlstr,"<h1>..Hello..</h1>")
 # http://localhost/test/hello
 # the file test.ring is located in 'website' folder
-app.route2('test/hello',:ringfile,"test.ring")
 
 # Thank you for using our Framework
 # keep going ...
