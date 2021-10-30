@@ -1,5 +1,5 @@
 #!ring  -cgi 
-load 'dragon-ring/main/base.ring'
+load 'main/base.ring'
 
 import system.Web
 # http://localhost/index or http://localhost/
