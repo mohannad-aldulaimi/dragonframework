@@ -33,6 +33,7 @@ aPackageInfo = [
 "dragon-ring/bootstrap/bootstrap.js.map",
 "dragon-ring/bootstrap/jq.js",
 "dragon-ring/bootstrap/style.css",
+"dragon-ring/website/brand.png",
 "libs/auth.ring",
 "libs/globals.ring",
 "libs/web/dring.ring",
