@@ -12,7 +12,8 @@ func html(chtmlcode)
 func sendvars(catrri)
 	 addattribute(dring , catrri )
 	 addattribute( app  , catrri )
-
+func getargv()
+	return sysargv
 
 class DragonMagangement
 	func init args
@@ -27,8 +28,7 @@ func getinfos()
 		? ''
 	return
 #to get Command line parameters
-func getargv()
-	return sysargv
+
 func Linee
 	? copy('=' , 75)
 
@@ -54,8 +54,10 @@ class Commands
 						restartserver()
 				other
 					? 'Bad argument'
-					this.init(getargv())
-
+					try init(getargv())
+					catch
+						return 
+					done
 				off
 			on 'help'
 				gethelp()
