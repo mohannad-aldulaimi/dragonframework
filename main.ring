@@ -10,5 +10,5 @@ func main
 	write('main/base.ring',basestr)
 	chdir('dragon-ring')
 	? copy('*',77)
-	? TAB+'The "Dragon-Ring" Framework Has Been Installed successfully ...'
+	? TAB+'The "Dragon-Ring" Web Framework Has Been Installed successfully ...'
 	? copy('*',77)

@@ -1,13 +1,6 @@
 #!ring  -cgi 
 load 'main/base.ring'
 import system.Web
-# http://localhost/index or http://localhost/
-
-# http://localhost/index/hello
-#app.route(['index','hello'],:htmlstr,"<h1>..Hello..</h1>")
-# http://localhost/test/hello
-# the file test.ring is located in 'website' folder
-
 # Thank you for using our Framework
 # keep going ...
 # Mohannad Al-Dulaimi 
