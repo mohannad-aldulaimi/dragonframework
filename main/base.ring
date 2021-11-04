@@ -4,8 +4,8 @@ load '../libs/web/weblib.ring'
 load 'db.ring'
 import system.web
 frmpath = '#(frameworkmainpath)'
-dragonindexpage =  "<!DOCTYPE html><html><head><title>Dragon-Ring</title><link rel='icon' href='website/brand.png' /></head><body>"
-dragonindexpage += '<style>html{max-height:100%;max-width:100%;}*{text-align:center;margin-top:1%;background-color:black;color:#fff;}</style><h1>"Dragon-Ring Web Framework"</h1><br/><img width="300px" height="300px" src="website/brand.png" /><p>Created Date:- 23,Oct. 2021</p><p>Latest Update Date:- 31,Oct. 2021</p><p>By :-Mohannad Al-Dulaimi</p><br/>contact me on E-mail :- <a href="mailto:dragon-ring@hi2.in">dragon-ring@hi2.in</a><br/>(Alpha Version 1.0.2)</body></html>'
+dragonindexpage =  "<!DOCTYPE html><html><head><title>Dragon-Ring</title><link rel='icon' href='website/brand.png' /></head><body class='justify-content-center bg-dark text-light'>"
+dragonindexpage += '<style>html{max-height:100%;max-width:100%;}*{text-align:center;margin-top:1%;background-color:black;color:#fff;}</style><div class="justify-content-center"><h1>"Dragon-Ring Web Framework"</h1><br/><img width="300px" height="300px" src="website/brand.png" /><p>Created Date:- 23,Oct. 2021</p><p>Latest Update Date:- 31,Oct. 2021</p><p>By :-Mohannad Al-Dulaimi</p><br/>contact me on E-mail :- <a href="mailto:dragon-ring@hi2.in">dragon-ring@hi2.in</a><br/>(Alpha Version 1.0.2)</div></body></html>'
 
 func html(chtmlcode)
 	app.webprint(chtmlcode)
