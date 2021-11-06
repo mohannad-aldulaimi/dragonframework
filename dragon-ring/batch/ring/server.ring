@@ -24,7 +24,7 @@ class ServerPrepare
 
 	func PrepareConfigurationFile
 
-		cFile = read(cServerPath+"/ring/httpd.conf.template")
+		cFile = read("batch/ring/httpd.conf.template")
 		cFile = substr(cFile,"#{SERVERPATH}",cServerPath)
 		cFile = substr(cFile,"#{APPLICATIONPATH}",cApplicationPath)
 		cFile = substr(cFile,"#{PORTNUMBER}",cPortNumber)
