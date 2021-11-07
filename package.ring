@@ -1,15 +1,15 @@
 aPackageInfo = [
-	:name = "Dragon-Ring Web FrameWork",
-	:description = "a free web framework  using the Ring Programming Language",
+	:name = "The dragonframework Package",
+	:description = "Our dragonframework package using the Ring programming language",
 	:folder = "dragonframework",
-	:developer = "mohannad-aldulaimi",
-	:email = "dragon-ring@hi2.in",
-	:license = "",
+	:developer = "",
+	:email = "",
+	:license = "MIT License",
 	:version = "1.0.2",
-	:ringversion = "1.12",
+	:ringversion = "1.16",
 	:versions = 	[
 		[
-			:version = "1.0.2",
+			:version = "1.0.0",
 			:branch = "master"
 		]
 	],
@@ -24,17 +24,21 @@ aPackageInfo = [
 		"lib.ring",
 		"main.ring",
 		"dragon-ring/.htaccess",
-		"dragon-ring/src/ring/httpd.conf.template",
-		"dragon-ring/src/ring/prepare.bat",
-		"dragon-ring/src/ring/server.ring",
-		"dragon-ring/src/errors/404.html",
 		"dragon-ring/bootstrap/bootstrap.css",
 		"dragon-ring/bootstrap/bootstrap.css.map",
 		"dragon-ring/bootstrap/bootstrap.js",
 		"dragon-ring/bootstrap/bootstrap.js.map",
 		"dragon-ring/bootstrap/jq.js",
 		"dragon-ring/bootstrap/style.css",
+		"dragon-ring/manage.ring",
+		"dragon-ring/route.ring",
+		"dragon-ring/src/errors/404.html",
+		"dragon-ring/src/ring/httpd.conf.template",
+		"dragon-ring/src/ring/prepare.bat",
+		"dragon-ring/src/ring/server.ring",
 		"dragon-ring/website/brand.png",
+		"dragon-ring/website/templates/test.html",
+		"dragon-ring/website/test.ring",
 		"libs/auth.ring",
 		"libs/globals.ring",
 		"libs/web/dring.ring",
@@ -64,14 +68,11 @@ aPackageInfo = [
 		"main/base.ring",
 		"main/brand.png",
 		"main/db.ring",
-		"dragon-ring/manage.ring",
-		"route.ring",
-		"dragon-ring/route.ring",
-		"dragon-ring/website/templates/test.html",
-		"dragon-ring/website/test.ring"
-		],
+		"README.MD",
+		"route.ring"
+	],
 	:ringfolderfiles = 	[
-	
+
 	],
 	:windowsfiles = 	[
 
