@@ -76,8 +76,8 @@ func gethelp()
 func startserver
 	if isWindows()
 		? 'The server will be running in a few seconds'
-		#system('ring src\ring\server.ring')
-		system('ring src\ring\server.ring')
+		#system('ring batch\ring\server.ring')
+		system('ring batch\ring\server.ring')
 	else
 		? 'You are not windows user ...'
 	ok
