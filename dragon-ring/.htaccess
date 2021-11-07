@@ -5,8 +5,8 @@ RewriteRule .* - [L,QSA]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 DirectoryIndex Route.ring
-ErrorDocument 500 /route.ring?page=404&
-ErrorDocument 404 /route.ring?page=404&
+ErrorDocument 500 /src/errors/404.html
+ErrorDocument 404 /src/errors/404.html
 RewriteRule ([^/]*)/?([^/]*)/?([^/]*)/?([^/]*)/?([^/]*)/?([^/]*)/?([^/]*)?$ Route.ring?page=$1&v2=$2&v3=$3&v4=$4&v5=$5&v6=$6 [L,QSA]
 #RewriteRule  ^index/([A-Za-z]+)/?$ Route.ring?a=$1
 #RewriteRule  ./([^/]*)/?$ Route.ring?a=$1&b=$2

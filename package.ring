@@ -26,6 +26,7 @@ aPackageInfo = [
 		"dragon-ring/.htaccess",
 "dragon-ring/src/ring/httpd.conf.template",
 "dragon-ring/src/ring/prepare.bat",
+"dragon-ring/src/errors/404.html",
 "dragon-ring/src/ring/server.ring",
 "dragon-ring/bootstrap/bootstrap.css",
 "dragon-ring/bootstrap/bootstrap.css.map",
