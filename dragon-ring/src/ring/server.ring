@@ -19,12 +19,12 @@ class ServerPrepare
 	cExeFolder  	 = substr(exefolder(),"\","/")
 	cRingFolder 	 = substr(cExeFolder,"/bin","")
 	cServerPath 	 = cRingFolder+"extensions/libdepwin/Apache2.2"
-	cApplicationPath = substr(currentdir(),'\batch\ring','')
+	cApplicationPath = substr(currentdir(),'\src\ring','')
 	cPortNumber	 = "80"
 
 	func PrepareConfigurationFile
 
-		cFile = read("batch/ring/httpd.conf.template")
+		cFile = read("src/ring/httpd.conf.template")
 		cFile = substr(cFile,"#{SERVERPATH}",cServerPath)
 		cFile = substr(cFile,"#{APPLICATIONPATH}",cApplicationPath)
 		cFile = substr(cFile,"#{PORTNUMBER}",cPortNumber)
