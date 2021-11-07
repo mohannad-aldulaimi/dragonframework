@@ -4,12 +4,12 @@ aPackageInfo = [
 	:folder = "dragonframework",
 	:developer = "",
 	:email = "",
-	:license = "",
-	:version = "1.0.2",
-	:ringversion = "1.12",
+	:license = "MIT License",
+	:version = "1.0.0",
+	:ringversion = "1.16",
 	:versions = 	[
 		[
-			:version = "1.0.2",
+			:version = "1.0.0",
 			:branch = "master"
 		]
 	],
@@ -24,6 +24,10 @@ aPackageInfo = [
 		"lib.ring",
 		"main.ring",
 		"dragon-ring/.htaccess",
+		"dragon-ring/batch/errors/404.html",
+		"dragon-ring/batch/ring/httpd.conf.template",
+		"dragon-ring/batch/ring/prepare.bat",
+		"dragon-ring/batch/ring/server.ring",
 		"dragon-ring/bootstrap/bootstrap.css",
 		"dragon-ring/bootstrap/bootstrap.css.map",
 		"dragon-ring/bootstrap/bootstrap.js",
@@ -32,10 +36,6 @@ aPackageInfo = [
 		"dragon-ring/bootstrap/style.css",
 		"dragon-ring/manage.ring",
 		"dragon-ring/route.ring",
-		"dragon-ring/batch/errors/404.html",
-		"dragon-ring/batch/ring/httpd.conf.template",
-		"dragon-ring/batch/ring/prepare.bat",
-		"dragon-ring/batch/ring/server.ring",
 		"dragon-ring/website/brand.png",
 		"dragon-ring/website/templates/test.html",
 		"dragon-ring/website/test.ring",
