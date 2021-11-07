@@ -15,7 +15,7 @@ load "stdlibcore.ring"
 	ok
 
 class ServerPrepare 
-
+//the main class for the server
 	cExeFolder  	 = substr(exefolder(),"\","/")
 	cRingFolder 	 = substr(cExeFolder,"/bin","")
 	cServerPath 	 = cRingFolder+"extensions/libdepwin/Apache2.2"
