@@ -70,3 +70,33 @@ def pgauto_num( table , column )
 		return "0"
 	ok
 
+//? PGdelete('products','pro_id',4)
+func PGdelete(tblname,colname,deleteby)
+	return PGquery('delete from '+tblname+' where '+colname+"='"+deleteby+"'")
+//? pgupdatedb('products','pro_id',22,['pro_id','pro_name','pro_description'],[1,'trest edit','test edit descrp'])
+func pgupdatedb(tblname,colname,colval,cols,colsval)
+	cstr='update '+tblname+' set '+
+	for x=1 to len(cols)
+		cstr+=cols[x]+'="'+colsval[x]+'", '
+	next
+	cstr += ', where '+colname+'="'+colval+'"'
+	cstr = substr(substr(cstr,', ,',''),'"',"'")
+	#? cstr
+	if pgQUERY(cstr)
+		return true
+	else return false
+	ok
+
+//? pgadd2db('products',[1,'test1','test1 description'])
+func pgadd2db(tblname,tblval)
+	cstr='insert into '+tblname+' values("'+tblval[1]
+	for x=2 to len(tblval)
+		cstr+= '","'+ tblval[x] + '"'
+	next
+	cstr += ')'
+	cstr = substr(substr(cstr,'""','"'),'"',"'")
+	#? cstr
+	if not pgquery(cstr)
+		return true
+	else return false
+	ok
