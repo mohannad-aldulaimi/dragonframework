@@ -1,5 +1,7 @@
 #!ring  -cgi 
 load 'main/base.ring'
+load 'libs/pgdb.ring'
+load 'libs/mysqlfuncs.ring'
 import system.Web
 # Thank you for using our Framework
 # keep going ...

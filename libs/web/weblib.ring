@@ -1,4 +1,3 @@
-load "mysqlfuncs.ring"
 load 'lib/template.ring'
 load package "lib/weblib.ring"
 # Get a copy from the required global variables
