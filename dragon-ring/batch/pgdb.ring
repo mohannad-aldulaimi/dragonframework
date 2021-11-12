@@ -16,7 +16,7 @@ def pgcon()
 def pgclose()
 	PQfinish(pg_conn)
 
-def pgexec(sql_statement)
+def pgquery(sql_statement)
 	pgcon()
 	res = PQexec( pg_conn , sql_statement )
 	err = ""
@@ -32,7 +32,7 @@ def pgexec(sql_statement)
 		? PQerrorMessage(pg_conn)
 	ok
 
-def pgget_data(select_statement)
+def pgresult(select_statement)
 	pgcon()
 	res = PQexec( pg_conn , select_statement )
 	err = ""
@@ -58,8 +58,8 @@ def pgget_data(select_statement)
 		return err
 	ok
 
-def auto_num( table , column )
-	tbl = get_data( "select max(" + column + ")+1 as num from " + table )
+def pgauto_num( table , column )
+	tbl = pgresult( "select max(" + column + ")+1 as num from " + table )
 	if type(tbl)=type([]) and len(tbl)>0
 		if tbl[1][:num] != NULL
 			return tbl[1][:num]
