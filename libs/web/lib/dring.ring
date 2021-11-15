@@ -9,10 +9,26 @@ class dring from Page
 	ok
 	
 	Func Print
-	 ctop = "<!DOCTYPE html>"+
-	'<html lang="en">' +nl+'<head><meta charset="ISO-8859-1"> <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><meta name="description" content=""><meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors"><meta name="generator" content="Jekyll v4.1.1">' + '<link rel="stylesheet" type="text/css" href="bootstrap/bootstrap.css"><link rel="stylesheet" type="text/css" href="bootstrap/style.css"><script type="text/javascript" src="bootstrap/jq.js">$(document).ready();</script></head><body>' + nl
-	cend = '</div></main></body><script type="text/javascript" src="bootstrap/bootstrap.js"></script></html>'
-			WebPrint(cCookies+ctop+cOutput+cend)
+	 ctop = '<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="bootstrap/bootstrap.css" rel="stylesheet">
+  <link href="bootstrap/style.css" rel="stylesheet">
+</head>
+<body>
+
+'
+	cend = '
+<script src="bootstrap/jq.js"></script>
+<script src="bootstrap/bootstrap.js"></script>
+</body>\
+</html>
+'
+	WebPrint(cCookies+ctop+cOutput+cend)
 	#sysset('Content-Type','Text/HTML')
 
 Func cookie_longtime(key, value)
