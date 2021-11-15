@@ -1,7 +1,23 @@
 # Dragon-Ring Web Framework
 _It's very easy to create your own web-sites using [The Ring Programming Language](http://ring-lang.net)_
+## Install :-
+#### (1) Clone this files for installation 
+	 git clone https://github.com/mohannad-aldulaimi/dragonframework/raw/master/dragonframework.zip
+	 git clone https://raw.githubusercontent.com/mohannad-aldulaimi/dragonframework/master/install.ring
+#### (2) Run The Dragon-Ring installation:-
+	ring install.ring
+#### (3) Create a new file for example 'test.ring'
 
-## Install:-
+#### (4) Write this Code in the file 'test.ring' :-
+	load 'dragon-ring.ring'
+	getstartedwithdragonring() 
+#### (5) Run the file Using RingNotePad or by using this command :-
+	ring test.ring
+
+## Run :-
+#### To run just use this command :-
+		ring manage.ring run
+## Install (From RingPM):-
 #### (1) Use this command for installation 
 	 ringpm install dragonframework from mohannad-aldulaimi
 #### (2) Run The Dragon-Ring installation:-
