@@ -1,4 +1,5 @@
 load "ziplib.ring"
+load 'stdlib.ring'
 //get the path of ring-lang
 	cExeFolder  	 = substr(exefolder(),"\","/")
 	cRingFolder 	 = substr(cExeFolder,"/bin","")
@@ -8,3 +9,4 @@ load "ziplib.ring"
 	zip_extract_allfiles("dragonframework.zip",cRingPmPath)
 // run the installation file
 	system(cExeFolder+"ringpm run dragonframework")	
+	OsDeletefile("dragonframework.zip")
