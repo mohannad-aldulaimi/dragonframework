@@ -1,6 +1,6 @@
 aPackageInfo = [
 	:name = "Dragon-Ring Web Franework",
-	:description = "Our dragonframework package using the Ring programming language",
+	:description = "dragonframework",
 	:folder = "dragonframework",
 	:developer = "mohannad-aldulaimi",
 	:email = "dragon-ring@hi2.in",
@@ -68,81 +68,4 @@ aPackageInfo = [
 	:run = "",
 	:windowsrun = "ring main.ring"
 ]
-/* aPackageInfo = [
-	:name = "The testpackage Package",
-	:description = "Our testpackage package using the Ring programming language",
-	:folder = "testpackage",
-	:developer = "",
-	:email = "",
-	:license = "MIT License",
-	:version = "1.0.0",
-	:ringversion = "1.16",
-	:versions = 	[
-		[
-			:version = "1.0.0",
-			:branch = "master"
-		]
-	],
-	:libs = 	[
-		[
-			:name = "",
-			:version = "",
-			:providerusername = ""
-		]
-	],
-	:files = 	[
-		"lib.ring",
-		"main.ring"
-	],
-	:ringfolderfiles = 	[
 
-	],
-	:windowsfiles = 	[
-
-	],
-	:linuxfiles = 	[
-
-	],
-	:ubuntufiles = 	[
-
-	],
-	:fedorafiles = 	[
-
-	],
-	:macosfiles = 	[
-
-	],
-	:windowsringfolderfiles = 	[
-
-	],
-	:linuxringfolderfiles = 	[
-
-	],
-	:ubunturingfolderfiles = 	[
-
-	],
-	:fedoraringfolderfiles = 	[
-
-	],
-	:macosringfolderfiles = 	[
-
-	],
-	:run = "ring main.ring",
-	:windowsrun = "",
-	:linuxrun = "",
-	:macosrun = "",
-	:ubunturun = "",
-	:fedorarun = "",
-	:setup = "",
-	:windowssetup = "",
-	:linuxsetup = "",
-	:macossetup = "",
-	:ubuntusetup = "",
-	:fedorasetup = "",
-	:remove = "",
-	:windowsremove = "",
-	:linuxremove = "",
-	:macosremove = "",
-	:ubunturemove = "",
-	:fedoraremove = ""
-] */
