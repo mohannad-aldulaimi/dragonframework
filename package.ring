@@ -1,7 +1,7 @@
 aPackageInfo = [
 	:name = "Dragon-Ring Web Franework",
 	:description = "Our dragonframework package using the Ring programming language",
-	:folder = "dragonwebframework",
+	:folder = "dragonframework",
 	:developer = "mohannad-aldulaimi",
 	:email = "dragon-ring@hi2.in",
 	:license = "MIT License",
