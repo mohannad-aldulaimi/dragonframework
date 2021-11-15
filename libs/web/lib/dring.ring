@@ -25,7 +25,7 @@ class dring from Page
 	cend = '
 <script src="bootstrap/jq.js"></script>
 <script src="bootstrap/bootstrap.js"></script>
-</body>\
+</body>
 </html>
 '
 	WebPrint(cCookies+ctop+cOutput+cend)
