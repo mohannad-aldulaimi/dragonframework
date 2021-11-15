@@ -9,31 +9,6 @@ class App from dring
 	and sysget('REQUEST_METHOD') = 'GET'
 		aPageVars[:page] = 'index'
 	ok
-	func ip_infos()
-	str = substr(system('arp -a'),24)
-	return html('Your ip information is '+nl+str)	
-	func status(ctype)
-	if not islist(ctype)
-		ctype = lower(ctype)
-	ok
-	if isstring(ctype)
-		switch ctype
-			on :debug
-				str = '<script>'
-				str += 'setInterval(function(){location.reload(true);},30000)'
-				str += '</script>'
-				this.WebPrint(str)
-		off
-	ok
-	if islist(ctype)
-		switch ctype
-			on ctype[:debug] = true 
-			str = '<script>'
-				str += 'setInterval(function(){location.reload(true);},'+ctype[:time]+')'
-				str += '</script>'
-				this.WebPrint(str)
-		off
-	ok 
 	Func write(charpage)
 		#WebPrint(charpage)
 		new dring{html(charpage)}
@@ -43,19 +18,18 @@ class App from dring
 		route(cpagename ,ctype, ccode)
 		ok
 	func route(cpagename ,ctype, ccode)
-	if startswith(ccode , 'website/')
-		ccode = substr(ccode ,'website/','')
-	ok
 	if islist(cpagename)
 		aPagename = cpagename
 	curlstr = 'vt=['
-	for strvars=1 to len(aPageName)
-	if strvars != len(aPageName)
-		curlstr +='v'+strvars+','
+	nStart = 1
+	 while nstart <= len(aPageName)
+	if nstart != len(aPageName)
+		curlstr +='v'+nstart+','
 	else	
-		curlstr +='v'+strvars
+		curlstr +='v'+nstart
 	ok
-	next
+	nStart ++
+	end
 	curlstr += ']'
 	 eval(curlstr)
 	 if  isequal(aPagename,vt)	
@@ -100,12 +74,10 @@ class App from dring
 
 	ok
 func loadwebpage(lbname)
-	str = 'try load "'+lbname+'" catch app.html(0) done'
-	try eval(str) catch html(raise('Error in Controller/Template codes ...'))	 done	
+	str = 'load "'+lbname+'"'
+	 eval(str)
+ private
 Func isequal(l1,l2)
-	lenl1 = len(l1)
-	lenl2 = len(l2)
-	if lenl1 = lenl2 
 		l1 = trimall(lower(list2str(l1)))
 		l2 = trimall(lower(list2str(l2)))
 		if l1 = l2 
@@ -113,9 +85,6 @@ Func isequal(l1,l2)
 		else 
 			return false 
 		ok
-	else
-		return false
-	ok
 Func Template cFile,oObject
 	return dring{
 		template(cFile,oObject)
