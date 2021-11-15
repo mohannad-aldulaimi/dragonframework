@@ -2,8 +2,7 @@
 _It's very easy to create your own web-sites using [The Ring Programming Language](http://ring-lang.net)_
 ## Install :-
 #### (1) Clone this files for installation 
-	 git clone https://github.com/mohannad-aldulaimi/dragonframework/raw/master/dragonframework.zip
-	 git clone https://raw.githubusercontent.com/mohannad-aldulaimi/dragonframework/master/install.ring
+	git clone https://github.com/mohannad-aldulaimi/dragonframework.git .
 #### (2) Run The Dragon-Ring installation:-
 	ring install.ring
 #### (3) Create a new file for example 'test.ring'
