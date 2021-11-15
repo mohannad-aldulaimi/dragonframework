@@ -13,13 +13,6 @@ aPackageInfo = [
 			:branch = "master"
 		]
 	],
-	:libs = 	[
-		[
-			:name = "",
-			:version = "",
-			:providerusername = ""
-		]
-	],
 	:files = 	[
 		"lib.ring",
 		"main.ring",
@@ -73,55 +66,6 @@ aPackageInfo = [
 		"README.MD",
 		"route.ring"
 	],
-	:ringfolderfiles = 	[
-
-	],
-	:windowsfiles = 	[
-
-	],
-	:linuxfiles = 	[
-
-	],
-	:ubuntufiles = 	[
-
-	],
-	:fedorafiles = 	[
-
-	],
-	:macosfiles = 	[
-
-	],
-	:windowsringfolderfiles = 	[
-
-	],
-	:linuxringfolderfiles = 	[
-
-	],
-	:ubunturingfolderfiles = 	[
-
-	],
-	:fedoraringfolderfiles = 	[
-
-	],
-	:macosringfolderfiles = 	[
-
-	],
-	:run = "ring main.ring",
-	:windowsrun = "",
-	:linuxrun = "",
-	:macosrun = "",
-	:ubunturun = "",
-	:fedorarun = "",
-	:setup = "",
-	:windowssetup = "",
-	:linuxsetup = "",
-	:macossetup = "",
-	:ubuntusetup = "",
-	:fedorasetup = "",
-	:remove = "",
-	:windowsremove = "",
-	:linuxremove = "",
-	:macosremove = "",
-	:ubunturemove = "",
-	:fedoraremove = ""
+	:run = "",
+	:windowsrun = "ring main.ring"
 ]
