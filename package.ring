@@ -4,9 +4,9 @@ aPackageInfo = [
 	:folder = "dragonframework",
 	:developer = "mohannad-aldulaimi",
 	:email = "dragon-ring@hi2.in",
-	:license = "MIT License",
+	:license = "dragon=Ring",
 	:version = "1.0.3",
-	:ringversion = "1.14",
+	:ringversion = "1.16",
 	:versions = 	[
 		[
 			:version = "1.0.3",
