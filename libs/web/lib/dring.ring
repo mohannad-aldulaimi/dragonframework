@@ -9,6 +9,7 @@ class dring from Page
 	ok
 	
 	Func Print
+	if cOutput != ''
 	 ctop = '<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,17 +19,19 @@ class dring from Page
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="bootstrap/bootstrap.css" rel="stylesheet">
   <link href="bootstrap/style.css" rel="stylesheet">
+  <script src="bootstrap/jq.js"></script>
+
 </head>
 <body>
 
 '
 	cend = '
-<script src="bootstrap/jq.js"></script>
 <script src="bootstrap/bootstrap.js"></script>
 </body>
 </html>
 '
-	WebPrint(cCookies+ctop+cOutput+cend)
+	WebPrint(cCookies+"Content-type: text/html" +nl+nl+ctop+cOutput+cend)
+ok
 	#sysset('Content-Type','Text/HTML')
 
 Func cookie_longtime(key, value)

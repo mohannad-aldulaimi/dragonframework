@@ -33,7 +33,6 @@ class App from dring
 	curlstr += ']'
 	 eval(curlstr)
 	 if  isequal(aPagename,vt)	
-	 see "Content-type: text/html" +nl+nl
 		 switch ctype
 			on :ringfunc
 				eval(ccode)
@@ -53,7 +52,6 @@ class App from dring
 	ok
 	else
 		if lower(aPageVars[:page]) = lower(cpagename) and v2=null and v3=null and v4 = null and v5=null and v6 = null
-		see "Content-type: text/html" +nl+nl   
 			switch ctype
 				on  :ringfunc
 					eval(ccode)
