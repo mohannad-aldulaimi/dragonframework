@@ -5,10 +5,11 @@ load "ziplib.ring"
 load '../../tools/ringpm/packages/dragonframework/route.ring'"
 path = currentdir()
 libpath = substr(path,'tools\ringpm\packages\dragonframework','bin\load\dragon-ring.ring')
+	zip_extract_allfiles("dragonframework.zip",path)
 basestr = substr(read('main/base.ring') , '#(frameworkmainpath)',path)
+
 func main
 	write(libpath,mystr)
-	zip_extract_allfiles("dragonframework.zip",path)
 	write('main/base.ring',basestr)
 	chdir('dragon-ring')
 	? copy('*',77)
