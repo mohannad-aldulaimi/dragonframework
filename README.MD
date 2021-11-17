@@ -1,38 +1,35 @@
 # Dragon-Ring Web Framework
 _It's very easy to create your own web-sites using [The Ring Programming Language](http://ring-lang.net)_
-## Install :-
-#### (1) Clone this files for installation 
-	git clone -b main https://github.com/mohannad-aldulaimi/dragonframework.git .
-#### (2) Run The Dragon-Ring installation:-
-	ring install.ring
-#### (3) Create a new file for example 'test.ring'
 
-#### (4) Write this Code in the file 'test.ring' :-
-	load 'dragon-ring.ring'
-	getstartedwithdragonring() 
-#### (5) Run the file Using RingNotePad or by using this command :-
-	ring test.ring
-
-## Run :-
-#### To run just use this command :-
-		ring manage.ring run
 ## Install (From RingPM):-
 #### (1) Use this command for installation 
 	 ringpm install dragonframework from mohannad-aldulaimi
 #### (2) Run The Dragon-Ring installation:-
 	ringpm run dragonframework
-#### (3) Create a new file for example 'test.ring'
-
-#### (4) Write this Code in the file 'test.ring' :-
-	load 'dragon-ring.ring'
-	getstartedwithdragonring() 
-#### (5) Run the file Using RingNotePad or by using this command :-
-	ring test.ring
-
+#### (3) Go to any directory and type this commanad:-
+	dring create <porject_name>
+##### For example:-
+	dring create first_web_app
 ## Run :-
 #### To run just use this command :-
 		ring manage.ring run
 ## What Is New:-
+### alpha Version 1.0.4
+	1. Add the ability to create projects using command line .
+	2. Add PostGreSql database extention with many useful functions.
+	3. Cookies Errors fixed.
+	4. weblib tempates (better code).
+	5. Add route2 function .
+	6. Error 404 Page (better code to be faster).
+	7. Auto Error Avoiding during execute files (if any error occurred on page it will return error 404 page not found (during the executing) not on code error).
+	8. Made the Page executing more faster .
+	9. updating the bootstrap and J-Query files.
+	10. Showflash() function (better code).
+	11. Add Get_Flashed_Messages() function.
+	12. Add (dangerous) Class for Flash messages.
+	13. Add 'Working With PostgreSql' document.
+	14. Add Employees example.
+	15. Add Login&signup example.
 ### alpha Version 1.0.2
 		1. Add manage.ring so that you can manage your project easily.
 		2. Add [run] command to control the server :-
