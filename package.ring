@@ -4,12 +4,12 @@ aPackageInfo = [
 	:folder = "dragonframework",
 	:developer = "mohannad-aldulaimi",
 	:email = "dragon-ring@hi2.in",
-	:license = "dragon=Ring",
-	:version = "1.0.4",
+	:license = "dragon-Ring",
+	:version = "1.1",
 	:ringversion = "1.14",
 	:versions = 	[
 		[
-			:version = "1.0.4",
+			:version = "1.1",
 			:branch = "master"
 		]
 	],
@@ -17,8 +17,12 @@ aPackageInfo = [
 		"lib.ring",
 		"main.ring",
 		"dragonframework.zip"
-		],
+	],
 	:run = "",
-	:windowsrun = "ring main.ring"
+	:windowsrun = "ring main.ring",
+	:libs = "",
+	:remotefolder = "dragonframework",
+	:branch = "master",
+	:providerusername = "mohannad-aldulaimi",
+	:providerwebsite = "github.com"
 ]
-
