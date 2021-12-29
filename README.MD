@@ -6,7 +6,7 @@ _It's very easy to create your own web-sites using [The Ring Programming Languag
 	 ringpm install dragonframework from mohannad-aldulaimi
 #### (2) Run The Dragon-Ring installation:-
 	ringpm run dragonframework
-#### (3) Go to any directory and type this commanad:-
+#### (3) Go to any directory and type this command:-
 	dring create <porject_name>
 ##### For example:-
 	dring create first_web_app
