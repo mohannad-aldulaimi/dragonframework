@@ -12,8 +12,20 @@ _It's very easy to create your own web-sites using [The Ring Programming Languag
 	dring create first_web_app
 ## Run :-
 #### To run just use this command :-
-		ring manage.ring run
+	ring manage.ring run
+#### Or :-
+	dring run <porject_name>
 ## What Is New:-
+### Beta Version (1.1)
+    1. Make the execute files more faster 
+        --> (It Takes 0.2s for executing).
+    2. Dispensing (.htaccess) file [On Windows].
+    3. The Documentation has been updated.
+    4. (GET and POST) Methods (Better Code).
+    5. (dring) The Installation Tool Has Been Updated.
+    6. (dring) Add The Run command.
+    7. The Framework Documentation Has Been Added To The Language Website.
+    
 ### alpha Version 1.0.4
 	1. Add the ability to create projects using command line .
 	2. Add PostGreSql database extention with many useful functions.
