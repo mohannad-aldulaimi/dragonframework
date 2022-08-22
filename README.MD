@@ -17,7 +17,7 @@ _It's very easy to create your own web-sites using [The Ring Programming Languag
 	dring run <porject_name>
 ## What Is New:-
 ### Beta Version (2.0)
-	. Dragon-Ring Management System had been Enhanced:-
+	1. Dragon-Ring Management System had been Enhanced:-
 		1-A. Add the ability to import Dragon-Ring extentions by using :- 
 			importlib(cLibName) .</li>
 		1-B. Add the ability to include 'vendor/css' , 'vendor/js' files automatically by using :-
