@@ -5,11 +5,11 @@ aPackageInfo = [
 	:developer = "mohannad-aldulaimi",
 	:email = "dragon-ring@hi2.in",
 	:license = "dragon=Ring",
-	:version = "1.0.4",
-	:ringversion = "1.14",
+	:version = "1.2.0",
+	:ringversion = "1.17",
 	:versions = 	[
 		[
-			:version = "1.0.4",
+			:version = "1.2.0",
 			:branch = "master"
 		]
 	],
