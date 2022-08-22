@@ -16,6 +16,36 @@ _It's very easy to create your own web-sites using [The Ring Programming Languag
 #### Or :-
 	dring run <porject_name>
 ## What Is New:-
+### Beta Version (2.0)
+	. Dragon-Ring Management System had been Enhanced:-
+		1-A. Add the ability to import Dragon-Ring extentions by using :- 
+			importlib(cLibName) .</li>
+		1-B. Add the ability to include 'vendor/css' , 'vendor/js' files automatically by using :-
+		include_vendor() function. 
+	2. Dragon-Ring comes with many useful functions:- 
+		2-A. request_method() ---> 'POST','GET' 
+			it returns request method , also you can use request_method Variable.
+				if request_method() = 'POST' dring{html('POST Method')} ok
+		2-B. Upload a Files Using uploadfile(cInput,CButton) function
+			Note:- cInput,CButton write them with its`s Selectors as in css code Has(#) For id
+				or Dot(.) For classes.
+		2-C. Now You Can write the Route code and identifying The type of route without a String So :-
+				app{ Route('Index',Ringfile,'index.ring') } 
+				/* Or */ app{ Route('Index',Ringfunc,'index()') }
+				/* Or */ app{ Route('Index',htmlstr,'The Index Page') }  
+				/* Or */ app{ Route('Index',htmlfile,'index.html') } 
+		2-D. Functions Can be used only inside dring object:-
+			2-D-1.Header(String_html_code)---> returns an html code and embed it into header of page.
+			2-D-2.SetTitle(String Title)---> embed a Title to page header.
+			2-D-3.SetIcon(image_src)--> to set icon for the page.
+			2-D-4.Css(cSelector,Css_Code)---> embed css code to the heaader of the page. 
+	3. Add the { Route3() Route4() Route5() Route6() } Functions for some reasons... 
+	4. Add Sqlite Database Extention.
+	5. Add Sqlite to Documentation.
+	6. Add Postgre ,mysql classes.
+	7. Now When You Create a route for a ring file without creaating the file
+		the system will generate it for you.
+
 ### Beta Version (1.1)
     1. Make the execute files more faster 
         --> (It Takes 0.2s for executing).
