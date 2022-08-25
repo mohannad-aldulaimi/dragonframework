@@ -1,4 +1,4 @@
-# Dragon-Ring Web Framework
+# Dragon-Ring Web Framework Beta(2.0)
 _It's very easy to create your own web-sites using [The Ring Programming Language](http://ring-lang.net)_
 
 ## Install (From RingPM):-
